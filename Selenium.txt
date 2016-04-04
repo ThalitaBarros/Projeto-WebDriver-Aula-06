@@ -8,7 +8,11 @@ public class Selenium {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.linkedin.com/"); 
 		String i = driver.getCurrentUrl(); 
-		System.out.println(i); //driver.close(); 
+		System.out.println(i);  
+		
+		
+		System.out.println("Teste do WEB Driver Selenium");
+		driver.close();
 	}
 
 }
