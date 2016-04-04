@@ -11,8 +11,10 @@ public class Selenium {
 		System.out.println(i);  
 		
 		
+		System.out.println("Nova Branch");
 		System.out.println("Teste do WEB Driver Selenium");
 		driver.close();
+		
 	}
 
 }
